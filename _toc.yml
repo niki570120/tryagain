@@ -1,0 +1,11 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: intro
+chapters:
+- file: markdown
+- file: 20211205bridge
+- file: 20211214bridgetest
+- file: 20211216bridge
+- file: 20211204bridgeconbine
