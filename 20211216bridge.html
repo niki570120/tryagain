@@ -1,0 +1,1325 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>&lt;no title&gt; &#8212; niki&#39;s home</title>
+    
+  <link href="_static/css/theme.css" rel="stylesheet">
+  <link href="_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
+
+    
+  <link rel="stylesheet"
+    href="_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+
+    
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-book-theme.css?digest=c3fdc42140077d1ad13ad2f1588a4309" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
+    <link rel="stylesheet" type="text/css" href="_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    
+  <link rel="preload" as="script" href="_static/js/index.be7d3bbb2ef33a8344ce.js">
+
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/togglebutton.js"></script>
+    <script src="_static/clipboard.min.js"></script>
+    <script src="_static/copybutton.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="_static/sphinx-book-theme.12a9622fbb08dcb3a2a40b2c02b83a57.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script>
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="_static/sphinx-thebe.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="&lt;no title&gt;" href="20211204bridgeconbine.html" />
+    <link rel="prev" title="&lt;no title&gt;" href="20211214bridgetest.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="None">
+    
+
+    <!-- Google Analytics -->
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    
+        <div class="navbar-brand-box">
+    <a class="navbar-brand text-wrap" href="index.html">
+      
+        <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
+        
+      
+      
+      <img src="_static/logo.png" class="logo" alt="logo">
+      
+      
+      <h1 class="site-logo" id="site-title">niki's home</h1>
+      
+    </a>
+</div><form class="bd-search d-flex align-items-center" action="search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item active">
+        <ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="intro.html">
+   Welcome to your Jupyter Book
+  </a>
+ </li>
+</ul>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="markdown.html">
+   Markdown Files
+  </a>
+ </li>
+</ul>
+
+    </div>
+</nav> <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+</div>
+
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="topbar container-xl fixed-top">
+    <div class="topbar-contents row">
+        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
+        <div class="col pl-md-4 topbar-main">
+            
+            <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+                data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+                aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
+                title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-arrow-left"></i>
+                <i class="fas fa-arrow-up"></i>
+            </button>
+            
+            
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="_sources/20211216bridge.ipynb"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.ipynb</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+            onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
+            <!-- Source interaction buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
+    <div class="dropdown-buttons sourcebuttons">
+        <a class="repository-button"
+            href="https://github.com/executablebooks/jupyter-book"><button type="button" class="btn btn-secondary topbarbtn"
+                data-toggle="tooltip" data-placement="left" title="Source repository"><i
+                    class="fab fa-github"></i>repository</button></a>
+        <a class="issues-button"
+            href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2F20211216bridge.html&body=Your%20issue%20content%20here."><button
+                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
+                title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
+        
+    </div>
+</div>
+
+            <!-- Full screen (wrap in <a> to have style consistency -->
+
+<a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+        data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+        title="Fullscreen mode"><i
+            class="fas fa-expand"></i></button></a>
+
+            <!-- Launch buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Launch interactive content"><i class="fas fa-rocket"></i></button>
+    <div class="dropdown-buttons">
+        
+        <a class="binder-button" href="https://mybinder.org/v2/gh/executablebooks/jupyter-book/master?urlpath=tree/docs/20211216bridge.ipynb"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Launch Binder" data-toggle="tooltip"
+                data-placement="left"><img class="binder-button-logo"
+                    src="_static/images/logo_binder.svg"
+                    alt="Interact on binder">Binder</button></a>
+        
+        
+        
+        
+    </div>
+</div>
+
+        </div>
+
+        <!-- Table of contents -->
+        <div class="d-none d-md-block col-md-2 bd-toc show">
+            
+            <div class="tocsection onthispage pt-5 pb-3">
+                <i class="fas fa-list"></i> Contents
+            </div>
+            <nav id="bd-toc-nav" aria-label="Page">
+                <ul class="simple visible nav section-nav flex-column">
+</ul>
+
+            </nav>
+        </div>
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+        
+              <div>
+                
+  <div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="o">%</span><span class="k">matplotlib</span> inline
+<span class="kn">from</span> <span class="nn">sklearn</span> <span class="kn">import</span> <span class="n">datasets</span>
+<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+<span class="kn">import</span> <span class="nn">seaborn</span> <span class="k">as</span> <span class="nn">sns</span>
+<span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;./bridgeconbine121603.csv&#39;</span><span class="p">)</span>
+<span class="n">df</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_html"><div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>date</th>
+      <th>deflection</th>
+      <th>temperature</th>
+      <th>OW1</th>
+      <th>OW2</th>
+      <th>T1(1-3)</th>
+      <th>T1(2-4)</th>
+      <th>T2(1-3)</th>
+      <th>T2(2-4)</th>
+      <th>T3(1-3)</th>
+      <th>...</th>
+      <th>T5(2-4)</th>
+      <th>T6(1-3)</th>
+      <th>T6(2-4)</th>
+      <th>number</th>
+      <th>SO1(1.5)</th>
+      <th>SO1(2.5)</th>
+      <th>SO1(3.5)</th>
+      <th>SO2(0.5)</th>
+      <th>SO2(10.5)</th>
+      <th>SO2(11.0)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>100/8/29</td>
+      <td>587.50</td>
+      <td>32.0</td>
+      <td>-2.65</td>
+      <td>-7.40</td>
+      <td>0.00010</td>
+      <td>-0.00008</td>
+      <td>0.00044</td>
+      <td>0.00024</td>
+      <td>-0.00018</td>
+      <td>...</td>
+      <td>-0.00042</td>
+      <td>-0.00018</td>
+      <td>0.00044</td>
+      <td>35282</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>100/9/26</td>
+      <td>585.44</td>
+      <td>28.0</td>
+      <td>-2.84</td>
+      <td>-7.20</td>
+      <td>0.00014</td>
+      <td>-0.00006</td>
+      <td>0.00044</td>
+      <td>0.00008</td>
+      <td>-0.00006</td>
+      <td>...</td>
+      <td>-0.00042</td>
+      <td>-0.00016</td>
+      <td>0.00046</td>
+      <td>43399</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>100/10/28</td>
+      <td>583.40</td>
+      <td>25.0</td>
+      <td>-2.38</td>
+      <td>-7.00</td>
+      <td>0.00016</td>
+      <td>-0.00010</td>
+      <td>0.00044</td>
+      <td>0.00004</td>
+      <td>-0.00008</td>
+      <td>...</td>
+      <td>-0.00046</td>
+      <td>-0.00018</td>
+      <td>0.00044</td>
+      <td>59634</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>100/12/7</td>
+      <td>594.63</td>
+      <td>31.0</td>
+      <td>-2.10</td>
+      <td>-7.00</td>
+      <td>0.00034</td>
+      <td>-0.00012</td>
+      <td>0.00060</td>
+      <td>0.00036</td>
+      <td>-0.00028</td>
+      <td>...</td>
+      <td>-0.00078</td>
+      <td>-0.00012</td>
+      <td>0.00030</td>
+      <td>50826</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>101/5/31</td>
+      <td>588.88</td>
+      <td>25.0</td>
+      <td>-1.44</td>
+      <td>-5.92</td>
+      <td>0.00030</td>
+      <td>-0.00012</td>
+      <td>0.00072</td>
+      <td>0.00028</td>
+      <td>-0.00018</td>
+      <td>...</td>
+      <td>-0.00072</td>
+      <td>-0.00018</td>
+      <td>0.00026</td>
+      <td>41251</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>104</th>
+      <td>110/4/29</td>
+      <td>583.91</td>
+      <td>16.4</td>
+      <td>-0.91</td>
+      <td>-5.59</td>
+      <td>-0.00026</td>
+      <td>0.00040</td>
+      <td>0.00086</td>
+      <td>0.00012</td>
+      <td>-0.00018</td>
+      <td>...</td>
+      <td>0.00014</td>
+      <td>-0.00040</td>
+      <td>-0.00014</td>
+      <td>77808</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <th>105</th>
+      <td>110/6/1</td>
+      <td>585.63</td>
+      <td>20.6</td>
+      <td>-0.89</td>
+      <td>-5.60</td>
+      <td>-0.00032</td>
+      <td>0.00050</td>
+      <td>0.00020</td>
+      <td>0.00026</td>
+      <td>-0.00014</td>
+      <td>...</td>
+      <td>0.00014</td>
+      <td>-0.00040</td>
+      <td>0.00060</td>
+      <td>48537</td>
+      <td>0.09</td>
+      <td>0.04</td>
+      <td>0.13</td>
+      <td>-0.05</td>
+      <td>-0.07</td>
+      <td>-0.02</td>
+    </tr>
+    <tr>
+      <th>106</th>
+      <td>110/7/5</td>
+      <td>587.93</td>
+      <td>29.4</td>
+      <td>-0.81</td>
+      <td>-5.75</td>
+      <td>-0.00030</td>
+      <td>0.00042</td>
+      <td>0.00002</td>
+      <td>0.00014</td>
+      <td>-0.00016</td>
+      <td>...</td>
+      <td>0.00030</td>
+      <td>-0.00026</td>
+      <td>0.00068</td>
+      <td>51877</td>
+      <td>-0.05</td>
+      <td>-0.25</td>
+      <td>-0.05</td>
+      <td>-0.32</td>
+      <td>-0.42</td>
+      <td>-0.35</td>
+    </tr>
+    <tr>
+      <th>107</th>
+      <td>110/8/2</td>
+      <td>588.60</td>
+      <td>33.0</td>
+      <td>-1.57</td>
+      <td>-5.66</td>
+      <td>-0.00050</td>
+      <td>0.00046</td>
+      <td>-0.00002</td>
+      <td>0.00010</td>
+      <td>-0.00020</td>
+      <td>...</td>
+      <td>0.00064</td>
+      <td>0.00004</td>
+      <td>0.00068</td>
+      <td>29221</td>
+      <td>-1.74</td>
+      <td>-1.24</td>
+      <td>-0.79</td>
+      <td>-0.72</td>
+      <td>-0.44</td>
+      <td>-0.35</td>
+    </tr>
+    <tr>
+      <th>108</th>
+      <td>110/9/1</td>
+      <td>588.60</td>
+      <td>31.8</td>
+      <td>-1.68</td>
+      <td>-5.71</td>
+      <td>-0.00062</td>
+      <td>0.00050</td>
+      <td>0.00014</td>
+      <td>0.00004</td>
+      <td>-0.00004</td>
+      <td>...</td>
+      <td>0.00030</td>
+      <td>-0.00010</td>
+      <td>0.00064</td>
+      <td>17637</td>
+      <td>-0.87</td>
+      <td>-0.60</td>
+      <td>-0.29</td>
+      <td>-3.06</td>
+      <td>-1.74</td>
+      <td>-1.52</td>
+    </tr>
+  </tbody>
+</table>
+<p>109 rows × 24 columns</p>
+</div></div></div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">df</span><span class="o">.</span><span class="n">describe</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_html"><div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>deflection</th>
+      <th>temperature</th>
+      <th>OW1</th>
+      <th>OW2</th>
+      <th>T1(1-3)</th>
+      <th>T1(2-4)</th>
+      <th>T2(1-3)</th>
+      <th>T2(2-4)</th>
+      <th>T3(1-3)</th>
+      <th>T3(2-4)</th>
+      <th>...</th>
+      <th>T5(2-4)</th>
+      <th>T6(1-3)</th>
+      <th>T6(2-4)</th>
+      <th>number</th>
+      <th>SO1(1.5)</th>
+      <th>SO1(2.5)</th>
+      <th>SO1(3.5)</th>
+      <th>SO2(0.5)</th>
+      <th>SO2(10.5)</th>
+      <th>SO2(11.0)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>count</th>
+      <td>109.00000</td>
+      <td>109.000000</td>
+      <td>109.000000</td>
+      <td>109.000000</td>
+      <td>109.000000</td>
+      <td>109.000000</td>
+      <td>109.000000</td>
+      <td>109.000000</td>
+      <td>109.000000</td>
+      <td>109.000000</td>
+      <td>...</td>
+      <td>109.000000</td>
+      <td>109.000000</td>
+      <td>109.000000</td>
+      <td>109.000000</td>
+      <td>109.000000</td>
+      <td>109.000000</td>
+      <td>109.000000</td>
+      <td>109.000000</td>
+      <td>109.00000</td>
+      <td>109.000000</td>
+    </tr>
+    <tr>
+      <th>mean</th>
+      <td>586.18055</td>
+      <td>22.588073</td>
+      <td>-1.467706</td>
+      <td>-6.587523</td>
+      <td>0.000302</td>
+      <td>-0.000067</td>
+      <td>0.000740</td>
+      <td>0.000172</td>
+      <td>-0.000803</td>
+      <td>0.001278</td>
+      <td>...</td>
+      <td>-0.001201</td>
+      <td>-0.000250</td>
+      <td>0.000343</td>
+      <td>36353.009174</td>
+      <td>0.175138</td>
+      <td>0.174037</td>
+      <td>0.168532</td>
+      <td>0.009633</td>
+      <td>-0.00789</td>
+      <td>0.007431</td>
+    </tr>
+    <tr>
+      <th>std</th>
+      <td>2.42929</td>
+      <td>5.806713</td>
+      <td>0.504285</td>
+      <td>0.984695</td>
+      <td>0.000257</td>
+      <td>0.000171</td>
+      <td>0.000659</td>
+      <td>0.000205</td>
+      <td>0.000588</td>
+      <td>0.000729</td>
+      <td>...</td>
+      <td>0.000762</td>
+      <td>0.000135</td>
+      <td>0.000193</td>
+      <td>11438.434614</td>
+      <td>0.279976</td>
+      <td>0.241906</td>
+      <td>0.190675</td>
+      <td>0.325897</td>
+      <td>0.18301</td>
+      <td>0.170171</td>
+    </tr>
+    <tr>
+      <th>min</th>
+      <td>580.20000</td>
+      <td>7.700000</td>
+      <td>-2.840000</td>
+      <td>-9.400000</td>
+      <td>-0.000620</td>
+      <td>-0.000340</td>
+      <td>-0.000160</td>
+      <td>-0.000800</td>
+      <td>-0.001740</td>
+      <td>0.000000</td>
+      <td>...</td>
+      <td>-0.002160</td>
+      <td>-0.000720</td>
+      <td>-0.000320</td>
+      <td>17637.000000</td>
+      <td>-1.740000</td>
+      <td>-1.240000</td>
+      <td>-0.790000</td>
+      <td>-3.060000</td>
+      <td>-1.74000</td>
+      <td>-1.520000</td>
+    </tr>
+    <tr>
+      <th>25%</th>
+      <td>584.31000</td>
+      <td>17.900000</td>
+      <td>-1.780000</td>
+      <td>-7.210000</td>
+      <td>0.000160</td>
+      <td>-0.000160</td>
+      <td>0.000300</td>
+      <td>0.000060</td>
+      <td>-0.001380</td>
+      <td>0.000860</td>
+      <td>...</td>
+      <td>-0.001820</td>
+      <td>-0.000320</td>
+      <td>0.000280</td>
+      <td>28817.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.00000</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>50%</th>
+      <td>586.44000</td>
+      <td>23.300000</td>
+      <td>-1.440000</td>
+      <td>-6.360000</td>
+      <td>0.000320</td>
+      <td>-0.000100</td>
+      <td>0.000620</td>
+      <td>0.000160</td>
+      <td>-0.000840</td>
+      <td>0.001320</td>
+      <td>...</td>
+      <td>-0.001460</td>
+      <td>-0.000220</td>
+      <td>0.000380</td>
+      <td>32481.000000</td>
+      <td>0.220000</td>
+      <td>0.180000</td>
+      <td>0.190000</td>
+      <td>0.000000</td>
+      <td>0.00000</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>75%</th>
+      <td>587.97000</td>
+      <td>27.400000</td>
+      <td>-1.140000</td>
+      <td>-5.870000</td>
+      <td>0.000460</td>
+      <td>0.000020</td>
+      <td>0.000960</td>
+      <td>0.000300</td>
+      <td>-0.000280</td>
+      <td>0.001880</td>
+      <td>...</td>
+      <td>-0.000780</td>
+      <td>-0.000160</td>
+      <td>0.000460</td>
+      <td>43399.000000</td>
+      <td>0.350000</td>
+      <td>0.330000</td>
+      <td>0.320000</td>
+      <td>0.000000</td>
+      <td>0.00000</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>max</th>
+      <td>594.63000</td>
+      <td>33.000000</td>
+      <td>-0.400000</td>
+      <td>-4.500000</td>
+      <td>0.000860</td>
+      <td>0.000500</td>
+      <td>0.002080</td>
+      <td>0.000640</td>
+      <td>0.000120</td>
+      <td>0.002540</td>
+      <td>...</td>
+      <td>0.000640</td>
+      <td>0.000040</td>
+      <td>0.000680</td>
+      <td>77808.000000</td>
+      <td>0.570000</td>
+      <td>0.610000</td>
+      <td>0.490000</td>
+      <td>0.400000</td>
+      <td>0.19000</td>
+      <td>0.300000</td>
+    </tr>
+  </tbody>
+</table>
+<p>8 rows × 23 columns</p>
+</div></div></div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">df</span><span class="o">.</span><span class="n">info</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&lt;class &#39;pandas.core.frame.DataFrame&#39;&gt;
+RangeIndex: 109 entries, 0 to 108
+Data columns (total 24 columns):
+ #   Column       Non-Null Count  Dtype  
+---  ------       --------------  -----  
+ 0   date         109 non-null    object 
+ 1   deflection   109 non-null    float64
+ 2   temperature  109 non-null    float64
+ 3   OW1          109 non-null    float64
+ 4   OW2          109 non-null    float64
+ 5   T1(1-3)      109 non-null    float64
+ 6   T1(2-4)      109 non-null    float64
+ 7   T2(1-3)      109 non-null    float64
+ 8   T2(2-4)      109 non-null    float64
+ 9   T3(1-3)      109 non-null    float64
+ 10  T3(2-4)      109 non-null    float64
+ 11  T4(1-3)      109 non-null    float64
+ 12  T4(2-4)      109 non-null    float64
+ 13  T5(1-3)      109 non-null    float64
+ 14  T5(2-4)      109 non-null    float64
+ 15  T6(1-3)      109 non-null    float64
+ 16  T6(2-4)      109 non-null    float64
+ 17  number       109 non-null    int64  
+ 18  SO1(1.5)     109 non-null    float64
+ 19  SO1(2.5)     109 non-null    float64
+ 20  SO1(3.5)     109 non-null    float64
+ 21  SO2(0.5)     109 non-null    float64
+ 22  SO2(10.5)    109 non-null    float64
+ 23  SO2(11.0)    109 non-null    float64
+dtypes: float64(22), int64(1), object(1)
+memory usage: 20.6+ KB
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+<span class="kn">import</span> <span class="nn">seaborn</span> <span class="k">as</span> <span class="nn">sns</span>
+<span class="kn">from</span> <span class="nn">matplotlib</span> <span class="kn">import</span> <span class="n">pyplot</span> <span class="k">as</span> <span class="n">plt</span> 
+<span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">12</span><span class="p">,</span> <span class="mi">10</span><span class="p">))</span>
+<span class="n">ax</span> <span class="o">=</span> <span class="n">sns</span><span class="o">.</span><span class="n">scatterplot</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="s2">&quot;temperature&quot;</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s2">&quot;deflection&quot;</span><span class="p">,</span> <span class="n">data</span><span class="o">=</span><span class="n">df</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s1">&#39;temperature vs deflection of Baishihu Suspension Bridge&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Text(0.5, 1.0, &#39;temperature vs deflection of Baishihu Suspension Bridge&#39;)
+</pre></div>
+</div>
+<img alt="_images/20211216bridge_4_1.png" src="_images/20211216bridge_4_1.png" />
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">sns</span><span class="o">.</span><span class="n">distplot</span><span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;deflection&#39;</span><span class="p">],</span><span class="n">kde</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>C:\ProgramData\Anaconda3\lib\site-packages\seaborn\distributions.py:2557: FutureWarning: `distplot` is a deprecated function and will be removed in a future version. Please adapt your code to use either `displot` (a figure-level function with similar flexibility) or `histplot` (an axes-level function for histograms).
+  warnings.warn(msg, FutureWarning)
+</pre></div>
+</div>
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&lt;AxesSubplot:xlabel=&#39;deflection&#39;&gt;
+</pre></div>
+</div>
+<img alt="_images/20211216bridge_5_2.png" src="_images/20211216bridge_5_2.png" />
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">sklearn.model_selection</span> <span class="kn">import</span> <span class="n">train_test_split</span>
+<span class="n">features</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;temperature&#39;</span><span class="p">,</span> <span class="s1">&#39;OW1&#39;</span><span class="p">,</span> <span class="s1">&#39;OW2&#39;</span><span class="p">,</span> <span class="s1">&#39;T1(1-3)&#39;</span><span class="p">,</span><span class="s1">&#39;T1(2-4)&#39;</span><span class="p">,</span><span class="s1">&#39;T2(1-3)&#39;</span><span class="p">,</span><span class="s1">&#39;T2(2-4)&#39;</span><span class="p">,</span><span class="s1">&#39;T3(1-3)&#39;</span><span class="p">,</span><span class="s1">&#39;T3(2-4)&#39;</span><span class="p">,</span><span class="s1">&#39;T4(1-3)&#39;</span><span class="p">,</span><span class="s1">&#39;T4(2-4)&#39;</span><span class="p">,</span><span class="s1">&#39;T5(1-3)&#39;</span><span class="p">,</span><span class="s1">&#39;T5(2-4)&#39;</span><span class="p">,</span><span class="s1">&#39;T6(1-3)&#39;</span><span class="p">,</span><span class="s1">&#39;T6(2-4)&#39;</span><span class="p">,</span><span class="s1">&#39;number&#39;</span><span class="p">,</span><span class="s1">&#39;SO1(1.5)&#39;</span><span class="p">,</span><span class="s1">&#39;SO1(2.5)&#39;</span><span class="p">,</span><span class="s1">&#39;SO1(3.5)&#39;</span><span class="p">,</span><span class="s1">&#39;SO2(0.5)&#39;</span><span class="p">,</span><span class="s1">&#39;SO2(10.5)&#39;</span><span class="p">,</span><span class="s1">&#39;SO2(11.0)&#39;</span><span class="p">]</span> 
+
+<span class="n">X</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="n">features</span><span class="p">]</span>
+<span class="n">y</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;deflection&#39;</span><span class="p">]</span>
+<span class="n">X_train</span><span class="p">,</span> <span class="n">X_test</span><span class="p">,</span> <span class="n">y_train</span><span class="p">,</span> <span class="n">y_test</span> <span class="o">=</span> <span class="n">train_test_split</span><span class="p">(</span><span class="n">X</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">test_size</span><span class="o">=</span><span class="mf">0.2</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">sklearn.linear_model</span> <span class="kn">import</span> <span class="n">LinearRegression</span><span class="c1">#線性回歸</span>
+<span class="n">clf1</span> <span class="o">=</span> <span class="n">LinearRegression</span><span class="p">()</span>
+
+<span class="n">clf1</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">X_train</span><span class="p">,</span> <span class="n">y_train</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>LinearRegression()
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">clf1</span><span class="o">.</span><span class="n">intercept_</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>583.5830739474081
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">clf1</span><span class="o">.</span><span class="n">coef_</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>array([ 3.22169703e-01,  1.27515216e+00, -1.05050008e-01, -1.33370463e+03,
+        2.73500399e+02, -4.46041639e+02,  1.61525495e+03,  1.50646838e+03,
+        2.18795927e+02,  1.74295802e+03,  6.79197313e+03,  1.39163067e+03,
+        8.73745227e+02, -4.18244225e+02,  1.46775386e+03, -2.71720170e-05,
+       -8.64448760e+00,  3.28587384e+00,  3.07810853e+00, -2.67996794e+00,
+        3.37042275e+01, -2.81583619e+01])
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">y_pred</span> <span class="o">=</span> <span class="n">clf1</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">X_test</span><span class="p">)</span>
+<span class="n">y_pred</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>array([583.33409452, 584.64214832, 588.28454626, 584.87642214,
+       589.07251489, 587.36942716, 587.63583867, 587.68513505,
+       598.64528038, 583.90631863, 588.80350731, 585.11809493,
+       583.41316601, 579.02190005, 589.70860175, 584.5001403 ,
+       580.77044015, 584.27928706, 582.97893661, 584.08613066,
+       586.93232412, 587.11424011])
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># 幫模型打分數</span>
+<span class="kn">from</span> <span class="nn">sklearn.metrics</span> <span class="kn">import</span> <span class="n">mean_squared_error</span>
+<span class="n">mean_squared_error</span><span class="p">(</span><span class="n">y_test</span><span class="p">,</span> <span class="n">y_pred</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>6.535747509710844
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># 幫模型打分數</span>
+<span class="kn">from</span> <span class="nn">sklearn.metrics</span> <span class="kn">import</span> <span class="n">r2_score</span>
+<span class="n">r2_score</span><span class="p">(</span><span class="n">y_test</span><span class="p">,</span> <span class="n">y_pred</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>-0.03684339943502368
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">sklearn.linear_model</span> <span class="kn">import</span> <span class="n">LinearRegression</span>
+<span class="n">clf1</span> <span class="o">=</span> <span class="n">LinearRegression</span><span class="p">()</span>
+<span class="n">clf1</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">X</span><span class="p">,</span> <span class="n">y</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;y = </span><span class="si">{:.4f}</span><span class="s1"> * x + </span><span class="si">{:.4f}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">clf1</span><span class="o">.</span><span class="n">coef_</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">clf1</span><span class="o">.</span><span class="n">intercept_</span><span class="p">))</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>y = 0.3279 * x + 581.8520
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">clf1</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">X</span><span class="p">,</span> <span class="n">y</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>LinearRegression()
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">sklearn.model_selection</span> <span class="kn">import</span> <span class="n">train_test_split</span>
+<span class="kn">from</span> <span class="nn">sklearn.pipeline</span> <span class="kn">import</span> <span class="n">make_pipeline</span>
+<span class="kn">from</span> <span class="nn">sklearn.linear_model</span> <span class="kn">import</span> <span class="n">LinearRegression</span>
+<span class="kn">from</span> <span class="nn">sklearn.preprocessing</span> <span class="kn">import</span> <span class="n">StandardScaler</span>
+<span class="kn">from</span> <span class="nn">sklearn.decomposition</span> <span class="kn">import</span> <span class="n">PCA</span>
+<span class="kn">from</span> <span class="nn">sklearn.cross_decomposition</span> <span class="kn">import</span> <span class="n">PLSRegression</span>
+
+<span class="n">X_train</span><span class="p">,</span> <span class="n">X_test</span><span class="p">,</span> <span class="n">y_train</span><span class="p">,</span> <span class="n">y_test</span> <span class="o">=</span> <span class="n">train_test_split</span><span class="p">(</span><span class="n">X</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">random_state</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
+
+<span class="n">pcr</span> <span class="o">=</span> <span class="n">make_pipeline</span><span class="p">(</span><span class="n">StandardScaler</span><span class="p">(),</span> <span class="n">PCA</span><span class="p">(</span><span class="n">n_components</span><span class="o">=</span><span class="mi">1</span><span class="p">),</span> <span class="n">LinearRegression</span><span class="p">())</span>
+<span class="n">pcr</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">X_train</span><span class="p">,</span> <span class="n">y_train</span><span class="p">)</span>
+<span class="n">pca</span> <span class="o">=</span> <span class="n">pcr</span><span class="o">.</span><span class="n">named_steps</span><span class="p">[</span><span class="s2">&quot;pca&quot;</span><span class="p">]</span>  <span class="c1"># retrieve the PCA step of the pipeline</span>
+
+<span class="n">pls</span> <span class="o">=</span> <span class="n">PLSRegression</span><span class="p">(</span><span class="n">n_components</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+<span class="n">pls</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">X_train</span><span class="p">,</span> <span class="n">y_train</span><span class="p">)</span>
+
+<span class="n">fig</span><span class="p">,</span> <span class="n">axes</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">subplots</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="mi">3</span><span class="p">))</span>
+<span class="n">axes</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">scatter</span><span class="p">(</span><span class="n">pca</span><span class="o">.</span><span class="n">transform</span><span class="p">(</span><span class="n">X_test</span><span class="p">),</span> <span class="n">y_test</span><span class="p">,</span> <span class="n">alpha</span><span class="o">=</span><span class="mf">0.3</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="s2">&quot;ground truth&quot;</span><span class="p">)</span>
+<span class="n">axes</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">scatter</span><span class="p">(</span>
+    <span class="n">pca</span><span class="o">.</span><span class="n">transform</span><span class="p">(</span><span class="n">X_test</span><span class="p">),</span> <span class="n">pcr</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">X_test</span><span class="p">),</span> <span class="n">alpha</span><span class="o">=</span><span class="mf">0.3</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="s2">&quot;predictions&quot;</span>
+<span class="p">)</span>
+<span class="n">axes</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">set</span><span class="p">(</span>
+    <span class="n">xlabel</span><span class="o">=</span><span class="s2">&quot;Projected data onto first PCA component&quot;</span><span class="p">,</span> <span class="n">ylabel</span><span class="o">=</span><span class="s2">&quot;y&quot;</span><span class="p">,</span> <span class="n">title</span><span class="o">=</span><span class="s2">&quot;PCR / PCA&quot;</span>
+<span class="p">)</span>
+<span class="n">axes</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">legend</span><span class="p">()</span>
+<span class="n">axes</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">scatter</span><span class="p">(</span><span class="n">pls</span><span class="o">.</span><span class="n">transform</span><span class="p">(</span><span class="n">X_test</span><span class="p">),</span> <span class="n">y_test</span><span class="p">,</span> <span class="n">alpha</span><span class="o">=</span><span class="mf">0.3</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="s2">&quot;ground truth&quot;</span><span class="p">)</span>
+<span class="n">axes</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">scatter</span><span class="p">(</span>
+    <span class="n">pls</span><span class="o">.</span><span class="n">transform</span><span class="p">(</span><span class="n">X_test</span><span class="p">),</span> <span class="n">pls</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">X_test</span><span class="p">),</span> <span class="n">alpha</span><span class="o">=</span><span class="mf">0.3</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="s2">&quot;predictions&quot;</span>
+<span class="p">)</span>
+<span class="n">axes</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">set</span><span class="p">(</span><span class="n">xlabel</span><span class="o">=</span><span class="s2">&quot;Projected data onto first PLS component&quot;</span><span class="p">,</span> <span class="n">ylabel</span><span class="o">=</span><span class="s2">&quot;y&quot;</span><span class="p">,</span> <span class="n">title</span><span class="o">=</span><span class="s2">&quot;PLS&quot;</span><span class="p">)</span>
+<span class="n">axes</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">legend</span><span class="p">()</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">tight_layout</span><span class="p">()</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>C:\ProgramData\Anaconda3\lib\site-packages\sklearn\base.py:438: UserWarning: X has feature names, but PCA was fitted without feature names
+  warnings.warn(
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\base.py:438: UserWarning: X has feature names, but PCA was fitted without feature names
+  warnings.warn(
+</pre></div>
+</div>
+<img alt="_images/20211216bridge_15_1.png" src="_images/20211216bridge_15_1.png" />
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;PCR r-squared </span><span class="si">{</span><span class="n">pcr</span><span class="o">.</span><span class="n">score</span><span class="p">(</span><span class="n">X_test</span><span class="p">,</span> <span class="n">y_test</span><span class="p">)</span><span class="si">:</span><span class="s2">.3f</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;PLS r-squared </span><span class="si">{</span><span class="n">pls</span><span class="o">.</span><span class="n">score</span><span class="p">(</span><span class="n">X_test</span><span class="p">,</span> <span class="n">y_test</span><span class="p">)</span><span class="si">:</span><span class="s2">.3f</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>PCR r-squared -0.271
+PLS r-squared -0.285
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">pca_2</span> <span class="o">=</span> <span class="n">make_pipeline</span><span class="p">(</span><span class="n">PCA</span><span class="p">(</span><span class="n">n_components</span><span class="o">=</span><span class="mi">1</span><span class="p">),</span> <span class="n">LinearRegression</span><span class="p">())</span>
+<span class="n">pca_2</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">X_train</span><span class="p">,</span> <span class="n">y_train</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;PCR r-squared with 2 components </span><span class="si">{</span><span class="n">pca_2</span><span class="o">.</span><span class="n">score</span><span class="p">(</span><span class="n">X_test</span><span class="p">,</span> <span class="n">y_test</span><span class="p">)</span><span class="si">:</span><span class="s2">.3f</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>PCR r-squared with 2 components -0.177
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<span class="kn">from</span> <span class="nn">sklearn.svm</span> <span class="kn">import</span> <span class="n">SVR</span>
+<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">sklearn.linear_model</span> <span class="kn">import</span> <span class="n">LinearRegression</span><span class="c1">#線性回歸</span>
+<span class="n">clf2</span> <span class="o">=</span> <span class="n">LinearRegression</span><span class="p">()</span>
+
+<span class="n">clf2</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">X_train</span><span class="p">,</span> <span class="n">y_train</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>LinearRegression()
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">sklearn.linear_model</span> <span class="kn">import</span> <span class="n">LinearRegression</span>
+<span class="n">clf2</span> <span class="o">=</span> <span class="n">LinearRegression</span><span class="p">()</span>
+<span class="n">clf2</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">X</span><span class="p">,</span> <span class="n">y</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;y = </span><span class="si">{:.4f}</span><span class="s1"> * x + </span><span class="si">{:.4f}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">clf2</span><span class="o">.</span><span class="n">coef_</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">clf2</span><span class="o">.</span><span class="n">intercept_</span><span class="p">))</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>y = 0.3279 * x + 581.8520
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">sklearn.model_selection</span> <span class="kn">import</span> <span class="n">train_test_split</span>
+<span class="n">features02</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;temperature&#39;</span><span class="p">,</span><span class="s1">&#39;T1(1-3)&#39;</span><span class="p">,</span><span class="s1">&#39;T1(2-4)&#39;</span><span class="p">,</span><span class="s1">&#39;T2(1-3)&#39;</span><span class="p">,</span><span class="s1">&#39;T2(2-4)&#39;</span><span class="p">,</span><span class="s1">&#39;T3(1-3)&#39;</span><span class="p">,</span><span class="s1">&#39;T3(2-4)&#39;</span><span class="p">,</span><span class="s1">&#39;T4(1-3)&#39;</span><span class="p">,</span><span class="s1">&#39;T4(2-4)&#39;</span><span class="p">,</span><span class="s1">&#39;T5(1-3)&#39;</span><span class="p">,</span><span class="s1">&#39;T5(2-4)&#39;</span><span class="p">,</span><span class="s1">&#39;T6(1-3)&#39;</span><span class="p">,</span><span class="s1">&#39;T6(2-4)&#39;</span><span class="p">]</span> 
+
+<span class="n">X</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="n">features02</span><span class="p">]</span>
+<span class="n">y</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;deflection&#39;</span><span class="p">]</span>
+<span class="n">X_train</span><span class="p">,</span> <span class="n">X_test</span><span class="p">,</span> <span class="n">y_train</span><span class="p">,</span> <span class="n">y_test</span> <span class="o">=</span> <span class="n">train_test_split</span><span class="p">(</span><span class="n">X</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">test_size</span><span class="o">=</span><span class="mf">0.2</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">sklearn.linear_model</span> <span class="kn">import</span> <span class="n">LinearRegression</span><span class="c1">#線性回歸</span>
+<span class="n">clf3</span> <span class="o">=</span> <span class="n">LinearRegression</span><span class="p">()</span>
+
+<span class="n">clf3</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">X_train</span><span class="p">,</span> <span class="n">y_train</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>LinearRegression()
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">sklearn.linear_model</span> <span class="kn">import</span> <span class="n">LinearRegression</span>
+<span class="n">clf3</span> <span class="o">=</span> <span class="n">LinearRegression</span><span class="p">()</span>
+<span class="n">clf3</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">X</span><span class="p">,</span> <span class="n">y</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;y = </span><span class="si">{:.4f}</span><span class="s1"> * x + </span><span class="si">{:.4f}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">clf3</span><span class="o">.</span><span class="n">coef_</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">clf3</span><span class="o">.</span><span class="n">intercept_</span><span class="p">))</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>y = 0.3415 * x + 577.8530
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">sklearn.model_selection</span> <span class="kn">import</span> <span class="n">train_test_split</span>
+<span class="n">features04</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;OW1&#39;</span><span class="p">,</span> <span class="s1">&#39;OW2&#39;</span><span class="p">,</span><span class="s1">&#39;SO1(1.5)&#39;</span><span class="p">,</span><span class="s1">&#39;SO1(2.5)&#39;</span><span class="p">,</span><span class="s1">&#39;SO1(3.5)&#39;</span><span class="p">,</span><span class="s1">&#39;SO2(0.5)&#39;</span><span class="p">,</span><span class="s1">&#39;SO2(10.5)&#39;</span><span class="p">,</span><span class="s1">&#39;SO2(11.0)&#39;</span><span class="p">]</span> 
+
+<span class="n">X</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="n">features04</span><span class="p">]</span>
+<span class="n">y</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;deflection&#39;</span><span class="p">]</span>
+<span class="n">X_train</span><span class="p">,</span> <span class="n">X_test</span><span class="p">,</span> <span class="n">y_train</span><span class="p">,</span> <span class="n">y_test</span> <span class="o">=</span> <span class="n">train_test_split</span><span class="p">(</span><span class="n">X</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">test_size</span><span class="o">=</span><span class="mf">0.2</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">sklearn.linear_model</span> <span class="kn">import</span> <span class="n">LinearRegression</span><span class="c1">#線性回歸</span>
+<span class="n">clf4</span> <span class="o">=</span> <span class="n">LinearRegression</span><span class="p">()</span>
+
+<span class="n">clf4</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">X_train</span><span class="p">,</span> <span class="n">y_train</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>LinearRegression()
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">sklearn.linear_model</span> <span class="kn">import</span> <span class="n">LinearRegression</span>
+<span class="n">clf4</span> <span class="o">=</span> <span class="n">LinearRegression</span><span class="p">()</span>
+<span class="n">clf4</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">X</span><span class="p">,</span> <span class="n">y</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;y = </span><span class="si">{:.4f}</span><span class="s1"> * x + </span><span class="si">{:.4f}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">clf4</span><span class="o">.</span><span class="n">coef_</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">clf4</span><span class="o">.</span><span class="n">intercept_</span><span class="p">))</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>y = 0.3429 * x + 591.3512
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">sklearn.model_selection</span> <span class="kn">import</span> <span class="n">train_test_split</span>
+<span class="n">features05</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;T1(1-3)&#39;</span><span class="p">,</span><span class="s1">&#39;T1(2-4)&#39;</span><span class="p">,</span><span class="s1">&#39;T2(1-3)&#39;</span><span class="p">,</span><span class="s1">&#39;T2(2-4)&#39;</span><span class="p">,</span><span class="s1">&#39;T3(1-3)&#39;</span><span class="p">,</span><span class="s1">&#39;T3(2-4)&#39;</span><span class="p">,</span><span class="s1">&#39;T4(1-3)&#39;</span><span class="p">,</span><span class="s1">&#39;T4(2-4)&#39;</span><span class="p">,</span><span class="s1">&#39;T5(1-3)&#39;</span><span class="p">,</span><span class="s1">&#39;T5(2-4)&#39;</span><span class="p">,</span><span class="s1">&#39;T6(1-3)&#39;</span><span class="p">,</span><span class="s1">&#39;T6(2-4)&#39;</span><span class="p">]</span> 
+
+<span class="n">X</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="n">features05</span><span class="p">]</span>
+<span class="n">y</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;deflection&#39;</span><span class="p">]</span>
+<span class="n">X_train</span><span class="p">,</span> <span class="n">X_test</span><span class="p">,</span> <span class="n">y_train</span><span class="p">,</span> <span class="n">y_test</span> <span class="o">=</span> <span class="n">train_test_split</span><span class="p">(</span><span class="n">X</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">test_size</span><span class="o">=</span><span class="mf">0.2</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">sklearn.linear_model</span> <span class="kn">import</span> <span class="n">LinearRegression</span><span class="c1">#線性回歸</span>
+<span class="n">clf5</span> <span class="o">=</span> <span class="n">LinearRegression</span><span class="p">()</span>
+
+<span class="n">clf5</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">X_train</span><span class="p">,</span> <span class="n">y_train</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>LinearRegression()
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">sklearn.linear_model</span> <span class="kn">import</span> <span class="n">LinearRegression</span>
+<span class="n">clf5</span> <span class="o">=</span> <span class="n">LinearRegression</span><span class="p">()</span>
+<span class="n">clf5</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">X</span><span class="p">,</span> <span class="n">y</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;y = </span><span class="si">{:.4f}</span><span class="s1"> * x + </span><span class="si">{:.4f}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">clf5</span><span class="o">.</span><span class="n">coef_</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">clf5</span><span class="o">.</span><span class="n">intercept_</span><span class="p">))</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>y = 1097.2729 * x + 587.6542
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">df_num</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="n">columns</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;date&quot;</span><span class="p">])</span>
+
+<span class="n">fig</span><span class="p">,</span> <span class="n">axes</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">subplots</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">df_num</span><span class="o">.</span><span class="n">columns</span><span class="p">)</span><span class="o">//</span><span class="mi">3</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">15</span><span class="p">,</span> <span class="mi">8</span><span class="p">))</span>
+<span class="n">i</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="k">for</span> <span class="n">triaxis</span> <span class="ow">in</span> <span class="n">axes</span><span class="p">:</span>
+    <span class="k">for</span> <span class="n">axis</span> <span class="ow">in</span> <span class="n">triaxis</span><span class="p">:</span>
+        <span class="n">df_num</span><span class="o">.</span><span class="n">hist</span><span class="p">(</span><span class="n">column</span> <span class="o">=</span> <span class="n">df_num</span><span class="o">.</span><span class="n">columns</span><span class="p">[</span><span class="n">i</span><span class="p">],</span> <span class="n">ax</span><span class="o">=</span><span class="n">axis</span><span class="p">)</span>
+        <span class="n">i</span> <span class="o">=</span> <span class="n">i</span><span class="o">+</span><span class="mi">1</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<img alt="_images/20211216bridge_30_0.png" src="_images/20211216bridge_30_0.png" />
+</div>
+</div>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+        
+            <!-- Previous / next buttons -->
+<div class='prev-next-area'> 
+    <a class='left-prev' id="prev-link" href="20211214bridgetest.html" title="previous page">
+        <i class="fas fa-angle-left"></i>
+        <div class="prev-next-info">
+            <p class="prev-next-subtitle">previous</p>
+            <p class="prev-next-title">&lt;no title&gt;</p>
+        </div>
+    </a>
+    <a class='right-next' id="next-link" href="20211204bridgeconbine.html" title="next page">
+    <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">&lt;no title&gt;</p>
+    </div>
+    <i class="fas fa-angle-right"></i>
+    </a>
+</div>
+        
+        </div>
+    </div>
+    <footer class="footer">
+    <div class="container">
+      <p>
+        
+          By niki chen<br/>
+        
+            &copy; Copyright 2021.<br/>
+      </p>
+    </div>
+  </footer>
+</main>
+
+
+      </div>
+    </div>
+  
+  <script src="_static/js/index.be7d3bbb2ef33a8344ce.js"></script>
+
+  </body>
+</html>
